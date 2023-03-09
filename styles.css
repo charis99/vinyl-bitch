@@ -89,6 +89,14 @@ body {
     z-index: 0;
 }
 
+.flyers {
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    float: inline;
+}
+
 .overlay {
     position: fixed;
     top: 100px;
