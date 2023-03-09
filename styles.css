@@ -77,7 +77,7 @@ body {
     padding: 20px;
     position: relative;
     top: 50px;
-    z-index: 0;
+    z-index: -1;
     float: inline;
 }
 
