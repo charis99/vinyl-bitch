@@ -46,7 +46,7 @@ body {
     border: 1px solid #17849b;
     background: #ffff9c;
     height: 55px; 
-    width: 260px;
+    width: 282px;
     float: left;
     position: relative;
     z-index: 2;
@@ -64,12 +64,31 @@ body {
     position: inline;
 }
 
+
+@media only screen and (max-width: 768px) {
+    .gigs {
+        float: block;
+        bottom: 0px;
+        right: 0px;
+        position: absolute;
+    }
+}
 .images {
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    z-index: 0;
+    float: inline;
+}
+
+.gigs {
     padding: 5px;
     position: relative;
-    left: 50px;
-    z-index: 1;
+    bottom: 550px;
+    right: -800px;
+    z-index: 0;
 }
+
 .overlay {
     position: fixed;
     top: 100px;
